@@ -28,11 +28,6 @@ class User extends Model {
           len: [8],
         },
       },
-      title: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-      },
     },
     {
       hooks: {
@@ -49,7 +44,7 @@ class User extends Model {
       timestamps: false,
       freezeTableName: true,
       underscored: true,
-      modelName: 'user',
+      modelName: 'User',
     }
   );
   
