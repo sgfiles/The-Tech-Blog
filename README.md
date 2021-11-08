@@ -19,6 +19,7 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 
 ## Deployed
 https://github.com/sgfiles/The-Tech-Blog
+https://sgfiles.github.io/The-Tech-Blog/
 
  ## Email
   Questions about this project may be directed here.
