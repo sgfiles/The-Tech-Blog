@@ -35,16 +35,16 @@ router.get('edit/:id', withAuth, async (req, res) => {
       const post = postData.get({ plain: true })
       res.render('edit-post', {
         layout: 'dashboard',
-        post
+        post,
         
-      }) 
+      });
     } else{
-      res.status(404).end()
+      res.status(404).end();
     }
   } catch (error) {
     res.redirect('login')
   }
-})
+});
 
 // router.post('/', withAuth, async (req, res) => {
 //   try {
