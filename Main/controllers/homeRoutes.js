@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
     const posts = postData.map((post) => post.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('all-posts', { posts, });
+    res.render('all-posts', { posts });
   } catch (err) {
     res.status(500).json(err);
   }
@@ -33,7 +33,7 @@ router.get('/post/:id', async (req, res) => {
     if (postData) {
       const post = postData.get({ plain: true });
 
-      res.render('post', { post });
+      res.render('single-post', { post });
     }else {
       res.status(404).end();
     }
@@ -59,9 +59,5 @@ router.get('/signup', (req, res) => {
 
   res.render('signup');
 });
-
-
-
-
 
 module.exports = router;
