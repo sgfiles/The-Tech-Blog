@@ -30,7 +30,7 @@ router.put('/:id', withAuth, async (req, res) => {
      res.status(404).end();
    }
 } catch (err) {
-  res,status(500).json(err);
+  res.status(500).json(err);
 }
 });
 
