@@ -12,6 +12,8 @@ A CMS-style blog site similar to a Wordpress site, where developers can publish 
 - [Deployed](#deployed)
 - [Email](#email)
 
+![Tech blog Home](https://user-images.githubusercontent.com/72025703/145149310-97f5c7ab-056e-48da-b152-b357b06ad779.JPG)
+![Tech Blog sign in](https://user-images.githubusercontent.com/72025703/145149323-e6a559b2-d057-4d12-8f86-183d4c726173.JPG)
 
  ## Credit
  All collaborations are welcome.
